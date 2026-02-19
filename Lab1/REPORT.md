@@ -1,7 +1,7 @@
 # Intro to formal languages. Regular grammars. Finite Automata.
 
 ### Course: Formal Languages & Finite Automata
-### Author: Ionut (Variant 23)
+### Author: Soimu Ionut (Variant 23)
 
 ----
 
