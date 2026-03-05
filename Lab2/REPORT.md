@@ -63,6 +63,12 @@ For generating graphs, I added a function that exports `.dot` source blocks, for
 
 To fully satisfy the bonus point requirements robustly, I integrated support for the local system's **Graphviz** installation using Python's `subprocess` module. When the code is executed, the script generates the `.dot` instruction strings, drops them into a temporary file securely format, and invokes the system's `dot` command-line utility. It then writes the resulting diagrams directly to the local workspace folder as PNG images (`nfa.png` and `dfa.png`). This requires `graphviz` to be installed locally inside the operating system (e.g., via `paru` or `apt`), ensuring data privacy without relying on any external APIs.
 
+**Original NFA:**
+![NFA](nfa.png)
+
+**Converted DFA:**
+![DFA](dfa.png)
+
 ## Conclusions
 
 In this laboratory work, I expanded my understanding of finite automata classification and the Chomsky hierarchy. Programmatically checking a grammar's Type constraints helped solidify the mathematical conditions that dictate parsing complexity. 
