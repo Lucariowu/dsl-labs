@@ -1,0 +1,5 @@
+Variant 3:
+
+O(P|Q|R)^+2(3|4)
+A*B(C|D|E)F(G|H|I)^2
+J^+K(L|M|N)*O?(P|Q)^3
